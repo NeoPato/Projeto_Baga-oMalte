@@ -1,0 +1,181 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #000000;
+  color: #FF9933;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: #FFCC66;
+}
+
+header {
+  background-color: #ff6600;
+  padding: 1em 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(255, 102, 0, 0.5);
+  border-top-left-radius: 5cap;
+  border-top-right-radius: 5cap;
+}
+
+header h1 {
+  margin: 0;
+  font-weight: 600;
+  font-size: 1.5em;
+  color: #000;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+header h1:hover {
+  color: #FFCC66;
+}
+
+nav a {
+  margin-left: 1.5rem;
+  font-weight: 600;
+  font-size: 1em;
+}
+
+.hero {
+  background: linear-gradient(160deg, #FF6600cc 0%, #000000cc 100%);
+  text-align: center;
+  padding: 5em 1em 6em;
+  color: #fff1e6;
+  border-bottom-left-radius: 5cap;
+  border-bottom-right-radius: 5cap;
+  
+}
+
+.hero h2 {
+  font-size: 2.8em;
+  margin: 0 0 0.5em;
+  letter-spacing: 2px;
+}
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 2em;
+  color: #fff5e6;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+section {
+  margin-bottom: 4em;
+}
+
+section h3 {
+  font-size: 2em;
+  margin-bottom: 0.6em;
+  color: #FF6600;
+  border-left: 6px solid #FF6600;
+  padding-left: 12px;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  color: #FFCC80;
+}
+.about-text {
+  flex: 1 1 60%;
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+.about-image {
+  flex: 1 1 20%;
+  max-width: 100%;
+  border-radius: 10cap;
+  overflow: hidden;
+}
+.about-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10cap;
+  object-fit: cover;
+  background-color: #fff;
+}
+
+.objective p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #FFCC80;
+}
+
+.objective-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5em;
+  margin-top: 1em;
+}
+.objective-item {
+  background: ;
+  flex: 1 1 calc(33% - 1em);
+  min-width: 220px;
+  border-radius: 8px;
+  padding: 1.5em;
+  color: #FFAA33;
+  box-shadow: 0 4px 12px rgba(255, 102, 0, 0.4);
+  transition: transform 0.3s ease;
+}
+.objective-item:hover {
+  background: #1a1a1a;
+  transform: translateY(-10px);
+}
+.objective-item h4 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+
+footer {
+  text-align: center;
+  padding: 2em 1em;
+  background-color: #000000;
+  color: #FF6600;
+  border-top: 1px solid #FF6600;
+  font-weight: 600;
+  letter-spacing: 1.1px;
+}
+
+@media (max-width: 700px) {
+  .services-list {
+    flex-direction: column;
+  }
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  nav a {
+    margin-left: 0;
+    margin-right: 1.2rem;
+  }
+  .about {
+    flex-direction: column;
+    text-align: center;
+  }
+  .about-text {
+    flex: none;
+    margin-bottom: 1.5em;
+  }
+  .about-image {
+    flex: none;
+  }
+}

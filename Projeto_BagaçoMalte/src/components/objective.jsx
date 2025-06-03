@@ -3,8 +3,7 @@ import React from "react";
 export default function Objective() {
     return(
         <section id="objective" class="objective">
-          <h3>OBJETIVO</h3>
-          <p>Oferecemos uma variedade de serviços que ajudam a alavancar seu potencial digital e acadêmico:</p>
+          <h3>Objetivo</h3>
           <div class="objective-list">
             <div class="objective-item">
               <h4>Farinha e Barra de Cereais</h4>

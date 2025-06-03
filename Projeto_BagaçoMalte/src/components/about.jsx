@@ -12,7 +12,7 @@ export default function About() {
               ambiental.</p>
           </div>
           <div class="about-image">
-            <img src="\public\UniSenai_logo.png" alt="barra de cereal" />
+            <img src="\public\Yule_fundo.png" alt="barra de cereal" />
           </div>
         </section>
     );

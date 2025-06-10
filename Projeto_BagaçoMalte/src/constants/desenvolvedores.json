@@ -1,0 +1,32 @@
+[
+  {
+    "img": "/luiz_ft.webp",
+    "nome": "Luiz",
+    "email": "exemplo@gmail.com",
+    "github": "exemplo"
+  },
+  {
+    "img": "/math_ft.webp",
+    "nome": "Matheus Pires",
+    "email": "matheusgustavodasilvapires@gmail.com",
+    "github": "MatheusPiresDEV"
+  },
+  {
+    "img": "/geo_ft.webp",
+    "nome": "Geovanna",
+    "email": "exemplo@gmail.com",
+    "github": "exemplo"
+  },
+  {
+    "img": "/gab_ft.webp",
+    "nome": "Gabriel Sena",
+    "email": "gabrielhmsena20@gmail.com",
+    "github": "NeoPato"
+  },
+  {
+    "img": "/vitor_ft.webp",
+    "nome": "Vior Santos",
+    "email": "exemplo@gmail.com",
+    "github": "exemplo"
+  }
+]

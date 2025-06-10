@@ -11,11 +11,10 @@ function App() {
   return (
     <>
       <Header/>
-      <Contact />
       <Hero />
       <About />
       <Objective />
-      
+      <Contact />
       <Footer/>
     </>
   )
